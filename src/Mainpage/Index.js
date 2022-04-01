@@ -53,7 +53,7 @@ function Mainpage(){
                 <Info3>Phone:010-8699-4767</Info3>
                 <Info3>Date of birth:12/08/2005</Info3>
 
-
+{/* d */}
             </LabelWrapper>
         </Container>
     )

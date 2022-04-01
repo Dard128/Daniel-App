@@ -7,9 +7,8 @@ function App() {
   return(
     <div>
       <Router>
-        <Route path="/Login" component={Loginpage}/>
-        <Route path="/Main" component={Mainpage}/>
-        <Mainpage />
+        <Route excat path="/Login" component={Loginpage}/>
+        <Route exact path="/Main" component={Mainpage}/>
       </Router>
     </div>
 
