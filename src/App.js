@@ -1,14 +1,14 @@
 import {BrowserRouter as Router, Route} from "react-router-dom";
 
 import Loginpage from "./Loginpage";
-import Mainpage from "./Mainpage";
+import Mainpage from "./Mainpage/index2";
 
 function App() {
   return(
     <div>
       <Router>
-        <Route excat path="/Login" component={Loginpage}/>
-        <Route exact path="/Main" component={Mainpage}/>
+        <Route exact path="/login" component={Loginpage}/>
+        <Route exact path="/main" component={Mainpage}/>
       </Router>
     </div>
 
